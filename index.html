@@ -8,36 +8,32 @@
       content="width=device-width, initial-scale=1.0"
     />
     <title>404 Project</title>
-    <link rel="stylesheet" href="/css/app.css" />
+    <link rel="stylesheet" href="css/app.css" />
   </head>
   <body>
     <div class="container">
-      <div class="container__boxnavbar">
+      <div class="container__header">
         <h1>404 not found</h1>
       </div>
-      <div class="container__boximg">
+      <div class="container__asideleft">
         <img src="/img/Scarecrow.png" alt="img" />
       </div>
-
-      <div class="container__nested_grid">
-        <div class="container__boxmessage">
+      <!-- subgrid -->
+      <div class="containernestedgrid">
+        <div class="containernestedgrid__article">
           <h1>I Have bad news for you</h1>
-        </div>
-        <div class="container__alertmessage">
-          <p>
-            The page are you looking for migth remove or its
-            temporaly unavaible
-          </p>
-          <div class="btnbackhome">
-            <input
-              type="button"
-              value="Go to home"
-              class="container__ alertmessage--btnGoToHome"
-            />
+          <div class="containernestedgrid__article">
+            <p>
+              The page are you looking for migth remove or
+              its temporaly unavaible
+            </p>
+          </div>
+          <div class="containernestedgrid__article">
+            <input type="button" value="Go to home" />
           </div>
         </div>
       </div>
-      <div class="footer"></div>
+      <footer></footer>
     </div>
   </body>
 </html>
